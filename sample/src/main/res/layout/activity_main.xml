@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:background="@color/colorPrimary"
+	android:orientation="vertical"
+	android:padding="16dp">
+
+	<frlgrd.animatededittext.AnimatedEditText
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		app:editTextIcon="@drawable/name_icon"
+		app:editTextInputType="name"
+		app:hintText="Name"/>
+
+	<frlgrd.animatededittext.AnimatedEditText
+		android:id="@+id/dateInput"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		app:editTextIcon="@drawable/date_icon"
+		app:editTextInputType="nonKeyboard"
+		app:hintText="Birthdate"/>
+
+	<frlgrd.animatededittext.AnimatedEditText
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		app:editTextIcon="@drawable/mail_icon"
+		app:editTextInputType="email"
+		app:hintText="E-mail"/>
+
+</LinearLayout>

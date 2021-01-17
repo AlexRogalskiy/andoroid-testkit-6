@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:background="@color/colorPrimary"
+	android:gravity="bottom"
+	android:minHeight="@dimen/animatedEditTextMinViewHeight"
+	android:orientation="vertical">
+
+	<TextView
+		android:id="@+id/hintText"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_margin="@dimen/animatedEditTextStandardMargin"
+		android:textColor="@color/colorAccent"
+		tools:text="Hint"/>
+
+	<EditText
+		android:id="@+id/editText"
+		android:layout_width="match_parent"
+		android:layout_height="@dimen/animatedEditTextCollapsedHeight"
+		android:layout_marginBottom="@dimen/animatedEditTextStandardMargin"
+		android:layout_marginLeft="@dimen/animatedEditTextStandardMargin"
+		android:layout_marginRight="@dimen/animatedEditTextStandardMargin"
+		android:background="@drawable/edit_text_background"
+		android:drawablePadding="@dimen/animatedEditTextInputDrawablePadding"
+		android:padding="@dimen/animatedEditTextInputPadding"
+		android:singleLine="true"
+		android:textCursorDrawable="@drawable/cursor"
+		tools:ignore="TextFields"
+		tools:text="Input"/>
+</LinearLayout>
